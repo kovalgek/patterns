@@ -10,8 +10,9 @@
 
 @interface Beverage : NSObject
 
-@property (nonatomic, copy) NSString *descript;
+@property (nonatomic, copy) NSString *descriptionString;
 
+- (NSString *)getBeverageDescription;
 - (double)cost;
 
 @end

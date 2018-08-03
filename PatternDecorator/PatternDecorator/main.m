@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Beverage.h"
+#import "Expresso.h"
+#import "Mocha.h"
+#import "Soy.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+int main(int argc, const char * argv[])
+{
+    @autoreleasepool
+    {
+        Beverage *beverage = [[Expresso alloc] init];
+        beverage = [[Mocha alloc] initWithBeverage:beverage];
+        beverage = [[Soy alloc] initWithBeverage:beverage];
+        NSLog(@"beverage=%@ %f",[beverage getBeverageDescription], [beverage cost]);
     }
     return 0;
 }

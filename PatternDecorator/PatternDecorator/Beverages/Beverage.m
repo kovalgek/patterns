@@ -13,9 +13,9 @@
 
 @implementation Beverage
 
-- (NSString *)getDescript
+- (NSString *)getBeverageDescription
 {
-    return self.description;
+    return self.descriptionString;
 }
 
 - (double)cost

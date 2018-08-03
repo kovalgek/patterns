@@ -10,4 +10,14 @@
 
 @implementation CondimentBeverage
 
+- (NSString *)getBeverageDescription
+{
+    return @"";
+}
+
+- (double)cost
+{
+    return 0.0;
+}
+
 @end

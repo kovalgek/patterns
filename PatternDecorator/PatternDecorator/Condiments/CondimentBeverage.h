@@ -10,7 +10,4 @@
 
 @interface CondimentBeverage : Beverage
 
-@property (nonatomic, copy) NSString *descript;
-
-
 @end

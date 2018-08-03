@@ -1,27 +1,27 @@
 //
-//  Expresso.m
+//  HouseBlend.m
 //  PatternDecorator
 //
-//  Created by Anton Kovalchuk on 31.07.2018.
+//  Created by Anton Kovalchuk on 03.08.2018.
 //  Copyright © 2018 Anton Kovalchuk. All rights reserved.
 //
 
-#import "Expresso.h"
+#import "HouseBlend.h"
 
-@implementation Expresso
+@implementation HouseBlend
 
 - (instancetype)init
 {
     self = [super init];
-    //
-    self.descript = @"expresso";
+    
+    self.descriptionString = @"House Blend Coffee";
     
     return self;
 }
 
 - (double)cost
 {
-    return 1.99;
+    return 0.89;
 }
 
 @end

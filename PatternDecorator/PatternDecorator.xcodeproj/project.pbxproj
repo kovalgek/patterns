@@ -11,6 +11,9 @@
 		727BB9FB211100F200D962FF /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BB9FA211100F200D962FF /* Beverage.m */; };
 		727BB9FE2111049800D962FF /* CondimentBeverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BB9FD2111049800D962FF /* CondimentBeverage.m */; };
 		727BBA012111052000D962FF /* Expresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA002111052000D962FF /* Expresso.m */; };
+		727BBA042114EB3300D962FF /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA032114EB3300D962FF /* HouseBlend.m */; };
+		727BBA072114EB7A00D962FF /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA062114EB7A00D962FF /* Mocha.m */; };
+		727BBA0A2114EC2F00D962FF /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA092114EC2F00D962FF /* Soy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,12 @@
 		727BB9FD2111049800D962FF /* CondimentBeverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CondimentBeverage.m; sourceTree = "<group>"; };
 		727BB9FF2111052000D962FF /* Expresso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expresso.h; sourceTree = "<group>"; };
 		727BBA002111052000D962FF /* Expresso.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Expresso.m; sourceTree = "<group>"; };
+		727BBA022114EB3300D962FF /* HouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		727BBA032114EB3300D962FF /* HouseBlend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		727BBA052114EB7A00D962FF /* Mocha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		727BBA062114EB7A00D962FF /* Mocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		727BBA082114EC2F00D962FF /* Soy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		727BBA092114EC2F00D962FF /* Soy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +75,37 @@
 		727BB9F1211100DF00D962FF /* PatternDecorator */ = {
 			isa = PBXGroup;
 			children = (
+				727BBA0C2114EC4900D962FF /* Beverages */,
+				727BBA0B2114EC3800D962FF /* Condiments */,
 				727BB9F2211100DF00D962FF /* main.m */,
-				727BB9F9211100F200D962FF /* Beverage.h */,
-				727BB9FA211100F200D962FF /* Beverage.m */,
-				727BB9FC2111049800D962FF /* CondimentBeverage.h */,
-				727BB9FD2111049800D962FF /* CondimentBeverage.m */,
-				727BB9FF2111052000D962FF /* Expresso.h */,
-				727BBA002111052000D962FF /* Expresso.m */,
 			);
 			path = PatternDecorator;
+			sourceTree = "<group>";
+		};
+		727BBA0B2114EC3800D962FF /* Condiments */ = {
+			isa = PBXGroup;
+			children = (
+				727BB9FC2111049800D962FF /* CondimentBeverage.h */,
+				727BB9FD2111049800D962FF /* CondimentBeverage.m */,
+				727BBA052114EB7A00D962FF /* Mocha.h */,
+				727BBA062114EB7A00D962FF /* Mocha.m */,
+				727BBA082114EC2F00D962FF /* Soy.h */,
+				727BBA092114EC2F00D962FF /* Soy.m */,
+			);
+			path = Condiments;
+			sourceTree = "<group>";
+		};
+		727BBA0C2114EC4900D962FF /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				727BB9F9211100F200D962FF /* Beverage.h */,
+				727BB9FA211100F200D962FF /* Beverage.m */,
+				727BB9FF2111052000D962FF /* Expresso.h */,
+				727BBA002111052000D962FF /* Expresso.m */,
+				727BBA022114EB3300D962FF /* HouseBlend.h */,
+				727BBA032114EB3300D962FF /* HouseBlend.m */,
+			);
+			path = Beverages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727BBA072114EB7A00D962FF /* Mocha.m in Sources */,
+				727BBA042114EB3300D962FF /* HouseBlend.m in Sources */,
 				727BB9FE2111049800D962FF /* CondimentBeverage.m in Sources */,
+				727BBA0A2114EC2F00D962FF /* Soy.m in Sources */,
 				727BB9FB211100F200D962FF /* Beverage.m in Sources */,
 				727BBA012111052000D962FF /* Expresso.m in Sources */,
 				727BB9F3211100DF00D962FF /* main.m in Sources */,
