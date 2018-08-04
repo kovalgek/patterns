@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		727BBA1A2114FB6D00D962FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA192114FB6D00D962FF /* main.m */; };
+		727BBA222114FB9500D962FF /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA212114FB9500D962FF /* SimplePizzaFactory.m */; };
+		727BBA252114FBAB00D962FF /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA242114FBAB00D962FF /* Pizza.m */; };
+		727BBA292115AE0700D962FF /* NYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA282115AE0700D962FF /* NYStyleCheesePizza.m */; };
+		727BBA2C2115AEA000D962FF /* ChicagoStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA2B2115AEA000D962FF /* ChicagoStyleCheesePizza.m */; };
+		727BBA2F2115AF9600D962FF /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA2E2115AF9600D962FF /* CheesePizza.m */; };
+		727BBA322115AFC100D962FF /* PepperroniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA312115AFC100D962FF /* PepperroniPizza.m */; };
+		727BBA352115B02500D962FF /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 727BBA342115B02500D962FF /* PizzaStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		727BBA142114FB6D00D962FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		727BBA162114FB6D00D962FF /* PatternFabricMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PatternFabricMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		727BBA192114FB6D00D962FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		727BBA202114FB9500D962FF /* SimplePizzaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePizzaFactory.h; sourceTree = "<group>"; };
+		727BBA212114FB9500D962FF /* SimplePizzaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePizzaFactory.m; sourceTree = "<group>"; };
+		727BBA232114FBAB00D962FF /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		727BBA242114FBAB00D962FF /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		727BBA272115AE0700D962FF /* NYStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStyleCheesePizza.h; sourceTree = "<group>"; };
+		727BBA282115AE0700D962FF /* NYStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStyleCheesePizza.m; sourceTree = "<group>"; };
+		727BBA2A2115AEA000D962FF /* ChicagoStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStyleCheesePizza.h; sourceTree = "<group>"; };
+		727BBA2B2115AEA000D962FF /* ChicagoStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStyleCheesePizza.m; sourceTree = "<group>"; };
+		727BBA2D2115AF9600D962FF /* CheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheesePizza.h; sourceTree = "<group>"; };
+		727BBA2E2115AF9600D962FF /* CheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheesePizza.m; sourceTree = "<group>"; };
+		727BBA302115AFC100D962FF /* PepperroniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PepperroniPizza.h; sourceTree = "<group>"; };
+		727BBA312115AFC100D962FF /* PepperroniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PepperroniPizza.m; sourceTree = "<group>"; };
+		727BBA332115B02500D962FF /* PizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		727BBA342115B02500D962FF /* PizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727BBA132114FB6D00D962FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		727BBA0D2114FB6D00D962FF = {
+			isa = PBXGroup;
+			children = (
+				727BBA182114FB6D00D962FF /* PatternFabricMethod */,
+				727BBA172114FB6D00D962FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		727BBA172114FB6D00D962FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727BBA162114FB6D00D962FF /* PatternFabricMethod */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727BBA182114FB6D00D962FF /* PatternFabricMethod */ = {
+			isa = PBXGroup;
+			children = (
+				727BBA262115ADF100D962FF /* Pizzas */,
+				727BBA192114FB6D00D962FF /* main.m */,
+				727BBA202114FB9500D962FF /* SimplePizzaFactory.h */,
+				727BBA212114FB9500D962FF /* SimplePizzaFactory.m */,
+				727BBA332115B02500D962FF /* PizzaStore.h */,
+				727BBA342115B02500D962FF /* PizzaStore.m */,
+			);
+			path = PatternFabricMethod;
+			sourceTree = "<group>";
+		};
+		727BBA262115ADF100D962FF /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				727BBA232114FBAB00D962FF /* Pizza.h */,
+				727BBA242114FBAB00D962FF /* Pizza.m */,
+				727BBA272115AE0700D962FF /* NYStyleCheesePizza.h */,
+				727BBA282115AE0700D962FF /* NYStyleCheesePizza.m */,
+				727BBA2A2115AEA000D962FF /* ChicagoStyleCheesePizza.h */,
+				727BBA2B2115AEA000D962FF /* ChicagoStyleCheesePizza.m */,
+				727BBA2D2115AF9600D962FF /* CheesePizza.h */,
+				727BBA2E2115AF9600D962FF /* CheesePizza.m */,
+				727BBA302115AFC100D962FF /* PepperroniPizza.h */,
+				727BBA312115AFC100D962FF /* PepperroniPizza.m */,
+			);
+			path = Pizzas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		727BBA152114FB6D00D962FF /* PatternFabricMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727BBA1D2114FB6D00D962FF /* Build configuration list for PBXNativeTarget "PatternFabricMethod" */;
+			buildPhases = (
+				727BBA122114FB6D00D962FF /* Sources */,
+				727BBA132114FB6D00D962FF /* Frameworks */,
+				727BBA142114FB6D00D962FF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatternFabricMethod;
+			productName = PatternFabricMethod;
+			productReference = 727BBA162114FB6D00D962FF /* PatternFabricMethod */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727BBA0E2114FB6D00D962FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Anton Kovalchuk";
+				TargetAttributes = {
+					727BBA152114FB6D00D962FF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 727BBA112114FB6D00D962FF /* Build configuration list for PBXProject "PatternFabricMethod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 727BBA0D2114FB6D00D962FF;
+			productRefGroup = 727BBA172114FB6D00D962FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727BBA152114FB6D00D962FF /* PatternFabricMethod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727BBA122114FB6D00D962FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727BBA252114FBAB00D962FF /* Pizza.m in Sources */,
+				727BBA2C2115AEA000D962FF /* ChicagoStyleCheesePizza.m in Sources */,
+				727BBA352115B02500D962FF /* PizzaStore.m in Sources */,
+				727BBA322115AFC100D962FF /* PepperroniPizza.m in Sources */,
+				727BBA1A2114FB6D00D962FF /* main.m in Sources */,
+				727BBA2F2115AF9600D962FF /* CheesePizza.m in Sources */,
+				727BBA292115AE0700D962FF /* NYStyleCheesePizza.m in Sources */,
+				727BBA222114FB9500D962FF /* SimplePizzaFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		727BBA1B2114FB6D00D962FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		727BBA1C2114FB6D00D962FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		727BBA1E2114FB6D00D962FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		727BBA1F2114FB6D00D962FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727BBA112114FB6D00D962FF /* Build configuration list for PBXProject "PatternFabricMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727BBA1B2114FB6D00D962FF /* Debug */,
+				727BBA1C2114FB6D00D962FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727BBA1D2114FB6D00D962FF /* Build configuration list for PBXNativeTarget "PatternFabricMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727BBA1E2114FB6D00D962FF /* Debug */,
+				727BBA1F2114FB6D00D962FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727BBA0E2114FB6D00D962FF /* Project object */;
+}
